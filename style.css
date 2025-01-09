@@ -92,3 +92,40 @@ body{
     color: red;
     display: none;
 }
+@media (max-width:350px){
+    .card{
+        /* max-width: 80%; */
+        width: 300px;
+    }
+    .search input{
+        width: 170px;
+        height: 50px;
+        font-size: 17px;
+    }
+    .search button{
+        width: 50px;
+        height: 40px;
+    }
+    .error{
+        font-size: 17px;
+    }
+    .weather-icon{
+        width: 130px;
+    }
+    .weather h1{
+        font-size: 60px;
+    }
+    .weather h2{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .col img{
+        width: 35px;
+    }
+    .humidity, .wind{
+        font-size: 15px;
+    }
+    .details{
+        gap: 10px;
+    }
+}
